@@ -14,9 +14,9 @@ import { MaterialIcon } from '@shared/components/MaterialIcon'
 import { Colors } from '@shared/constants/colors'
 import { debounce } from 'throttle-debounce'
 import { searchClinics } from '@store/reducers/clinics'
-import { withConnectedStore } from '@hocs/withConnectedStore'
-import { showErrorMessage } from '@utils/notificationUtils'
-import { translate } from '@utils/translationUtils'
+import { withConnectedStore } from '@moduleHocs/withConnectedStore'
+import { showErrorMessage } from '@moduleUtils/notificationUtils'
+import { translate } from '@moduleUtils/translationUtils'
 
 const ClinicSearchField = ({ dispatch }) => {
     const defaultCoordinates = { lat: null, long: null }

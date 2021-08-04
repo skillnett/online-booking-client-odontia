@@ -3,7 +3,6 @@ import Axios from 'axios'
 import { createAction } from '@reduxjs/toolkit'
 import { baseActions } from '@store/baseActions'
 import { APIUrlProvider } from '@store/apiUrlProviders/APIUrlProvider'
-import { getKey } from '@utils/arrayUtils'
 
 const apiUrlProvider = new APIUrlProvider()
 

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { AppHeader } from '@shared/components/appHeader/AppHeader'
-import { translate } from '@utils/translationUtils'
+import { translate } from '@moduleUtils/translationUtils'
 import {
     ClinicName,
     AccordionItem,
@@ -15,9 +15,9 @@ import {
 import { ImageSources } from '@shared/constants/imageSources'
 import { ArrowRight } from '@shared/svg/index'
 import { ClinicSearchField } from './components/ClinicSearchField'
-import { withConnectedStore } from '@hocs/withConnectedStore'
+import { withConnectedStore } from '@moduleHocs/withConnectedStore'
 import { AppLayout } from '@shared/components/appLayout/AppLayout'
-import { withExpandedPanelsFunctionality } from '@hocs/withExpandedPanelsFunctionality'
+import { withExpandedPanelsFunctionality } from '@moduleHocs/withExpandedPanelsFunctionality'
 import { saveClinic } from '@store/reducers/clinics'
 import { Text } from '@containers/bookingResults/styledComponents'
 

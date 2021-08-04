@@ -2,23 +2,23 @@ import React, { useEffect, useState } from 'react'
 import { BookingStepsEnum } from '@containers/onlineBooking/configurations/BookingStepsEnum'
 import { AppHeader } from '@shared/components/appHeader/AppHeader'
 import { AppLayout } from '@shared/components/appLayout/AppLayout'
-import { translate } from '@utils/translationUtils'
+import { translate } from '@moduleUtils/translationUtils'
 import { Text } from './styledComponents'
 import { PractitionerSection } from './components/PractitionerSection'
 import { useHistory, useParams } from 'react-router'
 import { getBookingDetails } from '@store/reducers/booking'
-import { withConnectedStore } from '@hocs/withConnectedStore'
 import {
     StyledExpansionPanel,
     StyledAccordionDetails,
     StyledAccordionSummary,
 } from '@containers/clinicSearch/styledComponents'
-import { withExpandedPanelsFunctionality } from '@hocs/withExpandedPanelsFunctionality'
 import { getAccordionConfig } from './configurations/AccordionConfig'
 import { ConfirmationModal } from './components/ConfirmationModal'
 import { PrimaryButton } from '@shared/components/buttons/PrimaryButton'
 import { Routes } from '@shared/constants/routes'
 import Box from '@material-ui/core/Box'
+import { withConnectedStore } from '@moduleHocs/withConnectedStore'
+import { withExpandedPanelsFunctionality } from '@moduleHocs/withExpandedPanelsFunctionality'
 
 const BookingResults = ({
     store,

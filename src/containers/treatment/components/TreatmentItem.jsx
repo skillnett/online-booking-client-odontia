@@ -9,7 +9,7 @@ import {
     TreatmentHeader,
 } from '../styledComponents'
 import { Box, Collapse } from '@material-ui/core'
-import { translate } from '@utils/translationUtils'
+import { translate } from '@moduleUtils/translationUtils'
 
 export const TreatmentItem = ({ treatment, onTreatmentClick }) => {
     const { title, price, long_description, short_description } = treatment

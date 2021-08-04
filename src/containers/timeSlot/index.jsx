@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { AppHeader } from '@shared/components/appHeader/AppHeader'
-import { translate } from '@utils/translationUtils'
+import { translate } from '@moduleUtils/translationUtils'
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
 import updateLocale from 'dayjs/plugin/updateLocale'
@@ -10,7 +10,7 @@ import Box from '@material-ui/core/Box'
 import { DatePicker } from './components/DatePicker'
 import { TimePicker } from './components/TimePicker'
 import { PractitionersDropdown } from './components/PractitionersDropdown'
-import { withConnectedStore } from '@hocs/withConnectedStore'
+import { withConnectedStore } from '@moduleHocs/withConnectedStore'
 import {
     getPractitioners,
     getTimeSlots,

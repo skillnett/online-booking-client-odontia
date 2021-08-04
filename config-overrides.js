@@ -5,10 +5,11 @@ module.exports = function override(config) {
         '@store': 'src/store',
         '@containers': 'src/containers',
         '@shared': 'src/shared',
-        '@utils': 'src/utils',
         '@svg': 'src/shared/svg',
         '@infrastructure': 'src/infrastructure',
-        '@hocs': 'src/hocs',
+        '@moduleHocs': 'online-booking-client-core/src/hocs',
+        '@moduleUtils': 'online-booking-client-core/src/utils',
+        '@moduleI18n': 'online-booking-client-core/src/i18n',
     })(config)
 
     return config

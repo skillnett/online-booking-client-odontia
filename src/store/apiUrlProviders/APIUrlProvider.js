@@ -1,5 +1,5 @@
 import { envConfig } from '@infrastructure/envConfig'
-import { getFormattedDateNumber } from '@utils/dateUtils'
+import { getFormattedDateNumber } from '@moduleUtils/dateUtils'
 import dayjs from 'dayjs'
 
 export class APIUrlProvider {

@@ -4,10 +4,10 @@ import {
     ModalButtonsWrapper,
     Text,
 } from '@containers/bookingResults/styledComponents'
-import { translate } from '@utils/translationUtils'
+import { translate } from '@moduleUtils/translationUtils'
 import { PrimaryButton } from '@shared/components/buttons/PrimaryButton'
 import { PrimaryRedButton } from '@shared/components/buttons/PrimaryRedButton'
-import { withConnectedStore } from '@hocs/withConnectedStore'
+import { withConnectedStore } from '@moduleHocs/withConnectedStore'
 import { cancelBooking } from '@store/reducers/booking'
 
 const ConfirmationModal = ({

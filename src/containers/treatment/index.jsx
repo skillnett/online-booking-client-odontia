@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react'
 import { AppHeader } from '@shared/components/appHeader/AppHeader'
-import { translate } from '@utils/translationUtils'
+import { translate } from '@moduleUtils/translationUtils'
 import {
     StyledExpansionPanel,
     StyledAccordionDetails,
     StyledAccordionSummary,
 } from '@containers/clinicSearch/styledComponents'
-import { withExpandedPanelsFunctionality } from '@hocs/withExpandedPanelsFunctionality'
+import { withExpandedPanelsFunctionality } from '@moduleHocs/withExpandedPanelsFunctionality'
 import { TreatmentItem } from './components/TreatmentItem'
-import { withConnectedStore } from '@hocs/withConnectedStore'
+import { withConnectedStore } from '@moduleHocs/withConnectedStore'
 import { AppLayout } from '@shared/components/appLayout/AppLayout'
 import { getTreatments, saveTreatment } from '@store/reducers/treatments'
 import { TreatmentSubTitle, TreatmentTitle } from './styledComponents'

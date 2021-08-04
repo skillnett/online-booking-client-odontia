@@ -1,7 +1,7 @@
 import React from 'react'
 import StyledCheckbox from '@shared/components/form/StyledCheckbox'
 import Box from '@material-ui/core/Box'
-import { translate } from '@utils/translationUtils'
+import { translate } from '@moduleUtils/translationUtils'
 
 export const ClientFormCheckboxes = () => {
     return (

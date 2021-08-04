@@ -1,4 +1,4 @@
-import { translate } from '@utils/translationUtils'
+import { translate } from '@moduleUtils/translationUtils'
 
 export const ClientFormConfig = [
     {

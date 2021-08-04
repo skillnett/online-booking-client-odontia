@@ -2,7 +2,7 @@ import typeToReducer from 'type-to-reducer'
 import Axios from 'axios'
 import { createAction } from '@reduxjs/toolkit'
 import { baseActions } from '@store/baseActions'
-import { getHeaders, getJSONData } from '@utils/reguestUtils'
+import { getHeaders, getJSONData } from '@moduleUtils/reguestUtils'
 import { APIUrlProvider } from '@store/apiUrlProviders/APIUrlProvider'
 import { baseReducer } from '@store/baseReducers'
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { ImageSources } from '@shared/constants/imageSources'
-import { translate } from '@utils/translationUtils'
+import { translate } from '@moduleUtils/translationUtils'
 import {
     PractitionerCard,
     PractitionerImage,

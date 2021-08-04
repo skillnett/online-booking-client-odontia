@@ -10,9 +10,6 @@
             "@containers/*": [
                 "./containers/*"
             ],
-            "@utils/*": [
-                "./utils/*"
-            ],
             "@shared/*": [
                 "./shared/*"
             ],
@@ -22,8 +19,14 @@
             "@infrastructure/*": [
                 "./infrastructure/*"
             ],
-            "@hocs/*": [
-                "./hocs/*"
+            "@moduleUtils/*": [
+                "../online-booking-client-core/src/utils/*"
+            ],
+            "@moduleI18n/*": [
+                "../online-booking-client-core/src/i18n/*"
+            ],
+            "@moduleHocs/*": [
+                "../online-booking-client-core/src/hocs/*"
             ]
         }
     },

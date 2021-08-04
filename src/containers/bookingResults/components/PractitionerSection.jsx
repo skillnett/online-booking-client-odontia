@@ -1,6 +1,6 @@
 import React from 'react'
 import { ImageSources } from '@shared/constants/imageSources'
-import { translate } from '@utils/translationUtils'
+import { translate } from '@moduleUtils/translationUtils'
 import { SecondaryButton } from '@shared/components/buttons/SecondaryButton'
 import { PractitionerImg, PractitionerWrapper, Text } from '../styledComponents'
 import dayjs from 'dayjs'

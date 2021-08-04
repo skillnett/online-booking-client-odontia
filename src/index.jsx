@@ -1,4 +1,4 @@
-import './i18n/i18n'
+import '@moduleI18n/i18n'
 import React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'

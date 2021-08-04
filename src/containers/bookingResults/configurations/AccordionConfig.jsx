@@ -1,4 +1,4 @@
-import { translate } from '@utils/translationUtils'
+import { translate } from '@moduleUtils/translationUtils'
 import { HowArrive } from '../components/HowArrive'
 import { Text } from '../styledComponents'
 import { BookingAccordionEnum } from './BookingAccordionEnum'

@@ -3,9 +3,9 @@ import { BrowserRouter, Switch } from 'react-router-dom'
 import { AppRoute } from '@shared/components/appRoute/AppRoute'
 import { Routes } from '@shared/constants/routes'
 import OnlineBooking from '@containers/onlineBooking/index'
-import { toastConfig } from '@utils/notificationUtils'
 import { toast } from 'react-toastify'
 import BookingResults from '@containers/bookingResults/index'
+import { toastConfig } from '@moduleUtils/notificationUtils'
 
 const App = () => {
     useEffect(() => {
