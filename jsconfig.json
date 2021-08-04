@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "baseUrl": "./src",
+        "jsx": "react",
+        "paths": {
+            "@store/*": [
+                "./store/*"
+            ],
+            "@containers/*": [
+                "./containers/*"
+            ],
+            "@utils/*": [
+                "./utils/*"
+            ],
+            "@shared/*": [
+                "./shared/*"
+            ],
+            "@svg/*": [
+                "./shared/svg/*"
+            ],
+            "@infrastructure/*": [
+                "./infrastructure/*"
+            ],
+            "@hocs/*": [
+                "./hocs/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*",
+        "build"
+    ]
+}
